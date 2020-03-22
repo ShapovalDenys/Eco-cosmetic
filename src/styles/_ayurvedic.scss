@@ -1,0 +1,168 @@
+.ayurvedic {
+  position: relative;
+  margin-top: 200px;
+  max-width: 1280px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  &__decoration {
+    position: absolute;
+    height: 20px;
+    margin-top: 130px;
+    transform: rotate(-90deg) translateY(-45px) translateX(45px);
+  }
+  &__description {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: flex-start;
+    margin-left: 150px;
+  }
+  &__article {
+    font-size: 36px;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-top: 60px;
+    color: #344f10;
+    margin-bottom: 140px;
+  }
+  &__link {
+    font-size: 14px;
+    line-height: 36px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #344f10;
+    font-weight: 600;
+    border-bottom: 1px solid #344f10;
+    &:hover {
+      text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    }
+  }
+  &__picture {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+.composition {
+  position: absolute;
+  white-space: nowrap;
+  right: 500px;
+}
+
+.mobile {
+  display: none;
+}
+
+.img {
+  width: 380px;
+  height: 396px;
+  &__line {
+    content: url(../images/composition-line.svg);
+    right: 400px;
+  }
+  &__kaolin {
+    top: 35px;
+  }
+  &__sivak {
+    top: 110px;
+  }
+  &__calcium {
+    top: 185px;
+  }
+  &__licoricen {
+    top: 260px;
+  }
+  &__turmeric {
+    top: 335px;
+  }
+}
+
+.line-1 {
+  top: 48px;
+}
+
+.line-2 {
+  top: 123px;
+}
+
+.line-3 {
+  top: 198px;
+}
+
+.line-4 {
+  top: 273px;
+}
+
+.line-5 {
+  top: 347px;
+}
+
+.composition:after {
+  content: url(../images/composition-line-elipse.svg);
+  position: absolute;
+  bottom: 2px;
+  right: -104px;
+}
+
+@media screen and (max-width: 1100px) {
+  .decoration {
+    display: none;
+  }
+  .sivak {
+    display: none;
+  }
+  .mobile {
+    display: inline-block;
+  }
+  .ayurvedic {
+    overflow: hidden;
+    z-index: 1;
+    margin-top: 100px;
+    &__description {
+      margin-left: 5%;
+    }
+    &__article {
+      margin: 0;
+      font-size: 24px;
+      width: 150px;
+      margin-bottom: 255px;
+    }
+  }
+  .ayurvedic__picture {
+    transform: translateX(150px);
+    z-index: -1;
+  }
+  .composition {
+    right: 440px;
+  }
+
+  .img {
+    &__line {
+      right: 340px;
+    }
+  }
+  .composition:after {
+    content: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .ayurvedic {
+    margin-bottom: 60px;
+    &__picture {
+      transform: translateX(40px) translateY(120px);
+    }
+    &__article {
+      margin-bottom: 400px;
+    }
+  }
+  .composition {
+    text-align: right;
+  }
+  .img__calcium {
+    white-space: normal;
+  }
+}

@@ -1,0 +1,120 @@
+.about {
+  position: relative;
+  margin-top: 200px;
+  max-width: 1280px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  &__decoration {
+    position: absolute;
+    height: 20px;
+    margin-top: 130px;
+    transform: rotate(-90deg) translateY(-85px) translateX(-26px);
+  }
+  &__description {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    align-items: flex-start;
+    margin-left: 150px;
+  }
+  &__article {
+    font-size: 36px;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #344f10;
+    margin-bottom: 13px;
+  }
+  &__text {
+    color: #333;
+  }
+  &__link {
+    font-size: 14px;
+    line-height: 36px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #344f10;
+    font-weight: 600;
+    border-bottom: 1px solid #344f10;
+    &:hover {
+      text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    }
+  }
+  &__picture {
+    display: flex;
+  }
+  &__img-1 {
+    width: 500px;
+    height: 530px;
+  }
+  &__img-2 {
+    margin-top: 100px;
+    width: 130px;
+    height: 430px;
+    object-fit: cover;
+    margin-left: 20px;
+  }
+}
+
+.decoration {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  height: 20px;
+  margin-top: 130px;
+  text-transform: uppercase;
+  &__line {
+    width: 100px;
+    height: 1px;
+    background: rgba(13, 14, 12, 0.5);
+    margin-right: 10px;
+  }
+  &__text {
+    font-size: 14px;
+    line-height: 130%;
+    letter-spacing: 0.05em;
+    color: rgba(52, 79, 16, 0.5);
+    white-space: nowrap;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .decoration {
+    display: none;
+  }
+
+  .about {
+    margin-top: 0;
+    width: 90%;
+    &__img-1 {
+      width: 369px;
+      height: 318px;
+      transform: translateX(10%);
+    }
+    &__img-2 {
+      display: none;
+    }
+    &__article {
+      margin-top: 0;
+      font-size: 24px;
+    }
+    &__description {
+      margin-left: 0;
+      margin-top: 0;
+    }
+  }
+
+  .text-2 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .about {
+    &__img-1 {
+      display: none;
+    }
+  }
+}

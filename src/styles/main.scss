@@ -1,7 +1,17 @@
-@import "utils";
-@import "fonts";
-@import "typography";
+@import "cssreset";
+@import "header";
+@import "choosegifts";
+@import "about";
+@import "shop";
+@import "creators";
+@import "ayurvedic";
+@import "ayurvedic-description";
+@import "contact-us";
 
-body {
-  background: $c-gray;
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
 }

@@ -1,0 +1,54 @@
+html,
+body,
+header,
+main,
+footer,
+ul,
+li,
+button,
+input,
+textarea,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+address {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+  font-style: 700;
+  font-size: 16px;
+  line-height: 150%;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+textarea {
+  resize: none;
+}
+
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  background: rgb(228, 223, 211);
+}

@@ -1,0 +1,118 @@
+.creators {
+  position: relative;
+  margin-top: 200px;
+  max-width: 1280px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  &__decoration {
+    position: absolute;
+    height: 20px;
+    margin-top: 130px;
+    transform: rotate(-90deg) translateY(-75px) translateX(-170px);
+  }
+  &__description {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    align-items: flex-start;
+    margin-left: 150px;
+  }
+  &__article {
+    font-size: 36px;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #344f10;
+    margin-bottom: 13px;
+  }
+  &__text {
+    color: #333;
+  }
+  &__link {
+    font-size: 14px;
+    line-height: 36px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #344f10;
+    font-weight: 600;
+    border-bottom: 1px solid #344f10;
+    margin-bottom: 50px;
+    &:hover {
+      text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    }
+  }
+  &__button {
+    position: relative;
+    width: 280px;
+    height: 60px;
+    background: #333;
+    font-size: 16px;
+    line-height: 130%;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #f2f2f2;
+    transition: 0.3s ;
+    border: 1px solid #333;
+    &:hover {
+      background: rgb(228, 223, 211);
+      color: #333;
+      text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    }
+  }
+  &__img {
+    max-width: 600px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .creators {
+    margin-top: 100px;
+    &__text-3 {
+      display: none;
+    }
+    &__text-1 {
+      margin-top: 0;
+      margin-bottom: 12px;
+    }
+    &__text-2 {
+      margin-top: 0;
+      margin-bottom: 15px;
+    }
+    &__description {
+      margin-top: 0;
+      margin-left: 5%;
+    }
+    &__img {
+      width: 368px;
+      margin-right: 0;
+      margin-left: 10px;
+    }
+    &__article {
+      margin-top: 0;
+      font-size: 24px;
+    }
+    &__link {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .creators {
+    width: 90%;
+    margin-left: 0;
+    margin-top: 60px;
+    &__img {
+      display: none;
+    }
+    &__article {
+      white-space: nowrap;
+      margin-bottom: 12px;
+    }
+    &__description {
+      margin-left: 0;
+    }
+  }
+}
