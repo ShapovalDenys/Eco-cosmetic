@@ -5,6 +5,7 @@
   width: 100%;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
   &__block {
     margin-left: 150px;
   }
@@ -144,6 +145,7 @@
       margin-left: 0;
     }
     &__cards-block {
+      justify-content: center;
       grid-template-columns: repeat(2, 330px);
       grid-gap: 30px;
       margin-bottom: 20px;
