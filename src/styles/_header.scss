@@ -1,3 +1,5 @@
+@import "config";
+
 .header {
   display: flex;
   flex-direction: column;
@@ -37,10 +39,10 @@
     }
   }
   &__link {
-    color: #344f10;
-    transition: 0.3s;
+    color: $mainArticleColor;
+    transition: $mainTransitionDuration;
     &:hover {
-      text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+      @include mainHoverLinkStyle;
     }
   }
 
@@ -85,20 +87,29 @@
 }
 
 .description {
-  max-width: 1280px;
-  width: 100%;
-  display: flex;
+  @include mainConfigSection;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   margin-top: 51px;
   &__text {
-    margin-left: 100px;
-    width: 480px;
-    color: #333;
+    width: 90%;
+    color: $mainTextColor;
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+  }
+  &__picture {
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
+    max-width: 1280px;
   }
   &__img {
     width: 577px;
-    height: 451px;
+    height: 480px;
+    object-fit: cover;
   }
   &__article {
     font-size: 60px;
@@ -113,33 +124,41 @@
   &__button {
     width: 280px;
     height: 60px;
-    background: #333;
+    background: $mainTextColor;
     color: #f2f2f2;
     text-align: center;
     letter-spacing: 0.15em;
     text-transform: uppercase;
-    transition: 0.3s;
-    border: 1px solid #344f10;
+    transition: $mainTransitionDuration;
+    border: 1px solid $mainArticleColor;
+    cursor: pointer;
     &:hover {
       background: rgb(228, 223, 211);
-      color: #344f10;
-      text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+      color: $mainArticleColor;
+      @include mainHoverLinkStyle;
       box-shadow: 2px 4px 3px rgba(0,0,0,0.3);
     }
   }
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: $tabletScreenResolution) {
   .description {
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
     align-content: center;
     text-align: center;
+    z-index: -1;
     &__img {
-      width: 90%;
+      width: 100%;
       margin-bottom: 50px;
       object-fit: cover;
+      height: 100%;
+    }
+    &__picture {
+      z-index: -1;
+      position: relative;
+      justify-content: center;
     }
     &__text {
       margin-left: 0;
@@ -185,13 +204,13 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      background-color: #333;
+      background-color: $mainTextColor;
       opacity: 0;
       left: 0;
       right: 0;
       top: 0;
       height: 100vh;
-      transition: 0.5s;
+      transition: $mainTransitionDuration;
     }
 
     &__link {
@@ -222,7 +241,7 @@
 
     &__toggler:checked ~ .nav__list {
       opacity: 1;
-      animation: move 0.3s;
+      animation: move $mainTransitionDuration;
     }
   }
 }
@@ -237,9 +256,9 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: $mobileScreenResolution) {
   .description {
-    margin-top: 10px;
+    margin-top: 15px;
     &__text {
       width: 90%;
     }

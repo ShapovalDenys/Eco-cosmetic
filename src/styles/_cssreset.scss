@@ -1,3 +1,5 @@
+@import "config";
+
 html,
 body,
 header,
@@ -50,5 +52,5 @@ html {
 }
 
 body {
-  background: rgb(228, 223, 211);
+  background: $mainBodyColor;
 }

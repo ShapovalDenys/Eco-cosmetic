@@ -1,0 +1,24 @@
+$tabletScreenResolution: 1100px;  //налаштування адаптації під планшети//
+$mobileScreenResolution: 480px;  //налаштування адаптації під смартфони//
+
+$mainButtoncolor: #333;  //колір кнопок//
+$mainTextColor: #333;  //основний колір тексту//
+$mainArticleColor: #344f10;  //основний заголовків тексту//
+
+$mainBodyColor: rgb(228, 223, 211);  //основний колір сторінки//
+
+$mainTransitionDuration: 0.3s; //швидкість ховер ефектів//
+
+//налаштування секцій сторінки//
+
+@mixin mainConfigSection {
+  max-width: 1280px;
+  width: 100%;
+  display: flex;
+}
+
+//налаштування ховер ефекту на лінках//
+
+@mixin mainHoverLinkStyle {
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}

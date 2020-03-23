@@ -1,9 +1,9 @@
+@import "config";
+
 .ayurvedic {
   position: relative;
   margin-top: 200px;
-  max-width: 1280px;
-  width: 100%;
-  display: flex;
+  @include mainConfigSection;
   justify-content: space-between;
   &__decoration {
     position: absolute;
@@ -24,7 +24,7 @@
     letter-spacing: 0.05em;
     text-transform: uppercase;
     margin-top: 60px;
-    color: #344f10;
+    color: $mainArticleColor;
     margin-bottom: 140px;
   }
   &__link {
@@ -32,17 +32,18 @@
     line-height: 36px;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-    color: #344f10;
+    color: $mainArticleColor;
     font-weight: 600;
-    border-bottom: 1px solid #344f10;
+    border-bottom: 1px solid $mainArticleColor;
     &:hover {
-      text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+      @include mainHoverLinkStyle;
     }
   }
   &__picture {
     position: relative;
     display: flex;
     justify-content: flex-end;
+    margin-right: 5%;
   }
 }
 
@@ -107,7 +108,7 @@
   right: -104px;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: $tabletScreenResolution) {
   .decoration {
     display: none;
   }
@@ -134,6 +135,7 @@
   .ayurvedic__picture {
     transform: translateX(150px);
     z-index: -1;
+    margin-right: 0;
   }
   .composition {
     right: 440px;
@@ -149,8 +151,9 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: $mobileScreenResolution) {
   .ayurvedic {
+    margin-top: 60px;
     margin-bottom: 60px;
     &__picture {
       transform: translateX(40px) translateY(120px);

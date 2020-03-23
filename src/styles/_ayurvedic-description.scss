@@ -1,3 +1,5 @@
+@import "config";
+
 .ayurvedic-description {
   max-width: 1280px;
   width: 75%;
@@ -11,11 +13,11 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    transition: 0.3s;
+    transition: $mainTransitionDuration;
     cursor: pointer;
     &:hover {
       transform: scale(1.1);
-      text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+      @include mainHoverLinkStyle;
     }
   }
   &__text {
@@ -28,7 +30,7 @@
   }
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: $tabletScreenResolution) {
   .ayurvedic-description {
     margin-top: 150px;
     width: 92%;
@@ -38,7 +40,7 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: $mobileScreenResolution) {
   .ayurvedic-description {
     margin-top: 0;
     flex-direction: column;
