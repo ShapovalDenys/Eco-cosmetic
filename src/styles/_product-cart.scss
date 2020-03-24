@@ -1,0 +1,124 @@
+@import "config";
+
+.product-cart {
+  margin-top: 60px;
+  max-width: 1280px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  &__description {
+    margin-left: 10px;
+    width: 480px;
+    margin-right: 100px;
+  }
+  &__article {
+    font-size: 24px;
+    line-height: 130%;
+    color: $mainTextColor;
+    margin-bottom: 20px;
+  }
+  &__price,
+  &__weight {
+    font-size: 18px;
+    line-height: 130%;
+    color: $mainArticleColor;
+    margin-bottom: 20px;
+  }
+  &__ingredients,
+  &__application {
+    width: 380px;
+    font-size: 16px;
+    line-height: 130%;
+    color: $mainArticleColor;
+    margin-top: 30px;
+  }
+  &__button {
+    display: inline-block;
+    width: 280px;
+    height: 60px;
+    background: $mainButtoncolor;
+    margin-top: 75px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #f2f2f2;
+    transition: $mainTransitionDuration;
+    border: 1px solid $mainArticleColor;
+    cursor: pointer;
+    &:hover {
+      background: rgb(228, 223, 211);
+      color: $mainArticleColor;
+      @include mainHoverLinkStyle;
+      box-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    }
+  }
+  &__img {
+    width: 500px;
+    cursor: pointer;
+    transition: $mainTransitionDuration;
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+}
+
+@media screen and (max-width: $tabletScreenResolution) {
+  .product-cart {
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+    &__description {
+      margin-top: 30px;
+      margin-right: 0;
+    }
+    &__img {
+      width: 466px;
+    }
+    &__button {
+      margin-top: 20px;
+      margin-bottom: 60px;
+      margin-left: calc(50% - 140px);
+    }
+    &__ingredients,
+    &__application {
+      width: 480px;
+    }
+    &__reverse {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    &__application {
+      margin-top: 0;
+    }
+  }
+}
+
+@media screen and (max-width: $mobileScreenResolution) {
+  .product-cart {
+    &__img,
+    &__ingredients,
+    &__application,
+    &__description {
+      width: 280px;
+    }
+    &__img {
+      transform: translateY(140px);
+      z-index: -1;
+    }
+    &__weight {
+      display: none;
+    }
+    &__article,
+    &__price {
+      transform: translateY(-280px);
+    }
+    &__ingredients {
+      transform: translateY(-170px);
+    }
+    &__application {
+      transform: translateY(80px);
+    }
+  }
+}

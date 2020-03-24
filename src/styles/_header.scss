@@ -41,6 +41,7 @@
   &__link {
     color: $mainArticleColor;
     transition: $mainTransitionDuration;
+    font-size: 18px;
     &:hover {
       @include mainHoverLinkStyle;
     }
@@ -110,6 +111,12 @@
     width: 577px;
     height: 480px;
     object-fit: cover;
+    z-index: 10;
+    cursor: pointer;
+    transition: $mainTransitionDuration;
+    &:hover {
+      transform: scale(1.05);
+    }
   }
   &__article {
     font-size: 60px;
@@ -124,6 +131,7 @@
   &__button {
     width: 280px;
     height: 60px;
+    line-height: 60px;
     background: $mainTextColor;
     color: #f2f2f2;
     text-align: center;
@@ -154,6 +162,11 @@
       margin-bottom: 50px;
       object-fit: cover;
       height: 100%;
+      cursor: pointer;
+      transition: $mainTransitionDuration;
+      &:hover {
+        transform: scale(1.05);
+      }
     }
     &__picture {
       z-index: -1;

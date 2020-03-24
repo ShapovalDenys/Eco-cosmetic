@@ -48,6 +48,11 @@
   &__img-1 {
     width: 500px;
     height: 530px;
+    cursor: pointer;
+    transition: $mainTransitionDuration;
+    &:hover {
+      transform: scale(1.05);
+    }
   }
   &__img-2 {
     margin-top: 100px;
@@ -55,6 +60,11 @@
     height: 430px;
     object-fit: cover;
     margin-left: 20px;
+    cursor: pointer;
+    transition: $mainTransitionDuration;
+    &:hover {
+      transform: scale(1.05);
+    }
   }
 }
 

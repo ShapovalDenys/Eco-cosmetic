@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco cosmetic</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:500,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/main.css">
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header__nav nav">
+        <a href="index.html" class="nav__link header__logo"></a>
+        <a href="index.html" class="nav__link header__article">witch of mountain winds</a>
+        <input type="checkbox" id="nav-toggler" class="nav__toggler">
+        <label for="nav-toggler" class="nav__toggler-label"></label>
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="index.html#shop" class="nav__link">Shop</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#contact" class="nav__link">Contact</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#about" class="nav__link">About</a>
+          </li>
+        </ul>
+        <a href="checkout.html" class="nav__link header__cart"></a>
+      </nav>
+    </header>
+    <main class="checkout">
+      <div class="checkout__block">
+      <h2 class="checkout__article">checkout</h2>
+      <ul class="checkout__list">
+        <li class="checkout__item">
+          <a href="#" class="checkout__link checkout__link-active">shipping</a>
+        </li>
+        <li class="checkout__item">
+          <a href="payments.html" class="checkout__link checkout__link-payment">payment</a>
+        </li>
+        <li class="checkout__item">
+          <a href="#" class="checkout__link checkout__link-onfirmation">confirmation</a>
+        </li>
+      </ul>
+      <section class="checkout__form checkout-form">
+        <form class="checkout-form__personality" method="POST" action="#">
+          <input id="2" type="text" name="name" placeholder="Full Name" class="checkout-form__input" maxlength="15" required>
+          <label for="2" class="checkout-form__item"></label>
+          <input id="1" type="email" name="email" placeholder="E-Mail" class="checkout-form__input" maxlength="15" required>
+          <label for="1" class="checkout-form__item"></label>
+          <input id="3" type="text" name="country" placeholder="Country" class="checkout-form__input" maxlength="15" required>
+          <label for="3" class="checkout-form__item"></label>
+        </form>
+        <form class="checkout-form__adress" method="POST" action="#">
+          <input id="4" type="text" name="city" placeholder="City" class="checkout-form__input" maxlength="15" required>
+          <label for="4" class="checkout-form__item"></label>
+          <input id="5" type="number" name="postal" placeholder="Postal Code" class="checkout-form__input" maxlength="15" required>
+          <label for="5" class="checkout-form__item"></label>
+          <input id="6" type="text" name="adress" placeholder="Adress" class="checkout-form__input" maxlength="15" required>
+          <label for="6" class="checkout-form__item"></label>
+        </form>
+      </section>
+      <a href="payments.html" class="checkout-form__button">next</a>
+    </div>
+    </main>
+    <script type="text/javascript" src="scripts/main.js"></script>
+  </body>
+</html>

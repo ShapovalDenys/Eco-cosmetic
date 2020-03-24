@@ -1,0 +1,76 @@
+@import "config";
+
+.accepted {
+  &__article-1,
+  &__article-2 {
+    font-size: 48px;
+    line-height: 72px;
+    color: $mainTextColor;
+    font-weight: 600;
+  }
+  &__article-1 {
+    margin-top: 50px;
+    margin-bottom: 0;
+  }
+  &__article-2 {
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+  &__img {
+    margin-bottom: 130px;
+  }
+  &__link {
+    margin-right: auto;
+    font-size: 14px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: $mainTextColor;
+    transition: $mainTransitionDuration;
+    transform: translateX(-20px);
+    &:hover {
+      @include mainHoverLinkStyle;
+    }
+    &::before {
+      content: url(../images/Rectangl.png);
+      display: inline-block;
+      margin-right: 20px;
+      position: relative;
+      bottom: 5px;
+    }
+  }
+}
+
+@media screen and (max-width: $tabletScreenResolution) {
+  .checkout {
+    &__link-shiping {
+      display: none;
+    }
+  }
+  .accepted {
+    &__article-1,
+    &__article-2 {
+      font-size: 24px;
+      line-height: 130%;
+      width: 278px;
+      text-align: center;
+    }
+    &__link {
+      margin-right: 0;
+      margin-left: 40px;
+      border-bottom: 1px solid #333;
+      &::before {
+        content: none;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $mobileScreenResolution) {
+  .accepted {
+    &__img {
+      transform: scale(0.6);
+      margin-bottom: 40px;
+    }
+  }
+}

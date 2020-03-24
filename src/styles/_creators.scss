@@ -65,6 +65,11 @@
   &__img {
     max-width: 600px;
     margin-right: 5%;
+    cursor: pointer;
+    transition: $mainTransitionDuration;
+    &:hover {
+      transform: scale(1.05);
+    }
   }
 }
 
