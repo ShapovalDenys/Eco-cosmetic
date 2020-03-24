@@ -687,7 +687,8 @@ body {
     display: block;
     font-size: 20px;
     margin-bottom: 10px;
-    font-weight: 600; }
+    font-weight: 600;
+    color: #333; }
     .card__name:visited {
       color: #333; }
     .card__name:hover {
@@ -695,7 +696,8 @@ body {
   .card__price {
     font-weight: 500;
     font-size: 18px;
-    line-height: 150%; }
+    line-height: 150%;
+    color: #333; }
     .card__price:visited {
       color: #333; }
     .card__price:hover {
