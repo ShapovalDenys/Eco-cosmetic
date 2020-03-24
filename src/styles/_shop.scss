@@ -117,6 +117,7 @@
     font-size: 20px;
     margin-bottom: 10px;
     font-weight: 600;
+    color: $mainTextColor;
     &:visited {
       color: $mainTextColor;
     }
@@ -128,6 +129,7 @@
     font-weight: 500;
     font-size: 18px;
     line-height: 150%;
+    color: $mainTextColor;
     &:visited {
       color: $mainTextColor;
     }
