@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco cosmetic</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:500,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/main.css">
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header__nav nav">
+        <a href="index.html" class="nav__link header__logo"></a>
+        <a href="index.html" class="nav__link header__article">witch of mountain winds</a>
+        <input type="checkbox" id="nav-toggler" class="nav__toggler">
+        <label for="nav-toggler" class="nav__toggler-label"></label>
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="index.html#shop" class="nav__link">Shop</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#contact" class="nav__link">Contact</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#about" class="nav__link">About</a>
+          </li>
+        </ul>
+        <a href="checkout.html" class="nav__link header__cart"></a>
+      </nav>
+    </header>
+      <main class="checkout payments">
+        <div class="checkout__block">
+        <h2 class="checkout__article">checkout</h2>
+        <ul class="checkout__list">
+          <li class="checkout__item">
+            <a href="checkout.html" class="checkout__link checkout__link-shiping">shipping</a>
+          </li>
+          <li class="checkout__item">
+            <a href="payments.html" class="checkout__link checkout__link-active">payment</a>
+          </li>
+          <li class="checkout__item">
+            <a href="accepted.html" class="checkout__link checkout__link-onfirmation">confirmation</a>
+          </li>
+        </ul>
+        <h3 class="payments__options">Choose payment option</h3>
+        <div class="payments__picture">
+          <div class="payments__credit-card">
+            <img class="payments__credit-card-img" src="./images/payment-1.png" alt="credit card">
+            <a href="accepted.html" class="payments__credit-card-text">Credit card</a>
+          </div>
+          <div class="payments__delivery">
+            <img class="payments__delivery-img" src="./images/payment-2.png" alt="credit card">
+            <a href="accepted.html" class="payments__delivery-text">Payment on delivery</a>
+          </div>
+        </div>
+        <a href="accepted.html" class="checkout-form__button">next</a>
+        </div>
+      </main>
+    <script type="text/javascript" src="scripts/main.js"></script>
+  </body>
+</html>
