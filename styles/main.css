@@ -166,9 +166,9 @@ body {
         -ms-flex-pack: end;
             justify-content: flex-end;
     width: 90%;
-    max-width: 1280px; }
+    max-width: 1280px;
+    z-index: -1; }
   .description__img {
-    z-index: -1;
     width: 577px;
     height: 480px;
     -o-object-fit: cover;
