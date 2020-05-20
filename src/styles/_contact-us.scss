@@ -61,6 +61,7 @@
   &__button {
     margin-top: 40px;
     position: relative;
+    left: calc(50% - 140px);
     width: 280px;
     height: 60px;
     background: $mainButtoncolor;
