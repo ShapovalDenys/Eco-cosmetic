@@ -98,7 +98,6 @@
     margin-left: 150px;
     display: flex;
     flex-direction: column;
-    z-index: 10;
   }
   &__picture {
     position: absolute;
@@ -108,10 +107,10 @@
     max-width: 1280px;
   }
   &__img {
+    z-index: -1;
     width: 577px;
     height: 480px;
     object-fit: cover;
-    z-index: 10;
     cursor: pointer;
     transition: $mainTransitionDuration;
     &:hover {
@@ -156,7 +155,6 @@
     justify-content: center;
     align-content: center;
     text-align: center;
-    z-index: -1;
     &__img {
       width: 100%;
       margin-bottom: 50px;
@@ -169,7 +167,6 @@
       }
     }
     &__picture {
-      z-index: -1;
       position: relative;
       justify-content: center;
     }
@@ -224,6 +221,7 @@
       top: 0;
       height: 100vh;
       transition: $mainTransitionDuration;
+      z-index: -1;
     }
 
     &__link {
@@ -253,6 +251,7 @@
     }
 
     &__toggler:checked ~ .nav__list {
+      z-index: 10;
       opacity: 1;
       animation: move $mainTransitionDuration;
     }
@@ -295,7 +294,6 @@
 
   .header__nav {
     margin-top: 10px;
-    z-index: 20;
   }
 
   .nav__toggler-label {
