@@ -1471,7 +1471,8 @@ body {
 
 @media screen and (max-width: 480px) {
   .product-cart__img, .product-cart__ingredients, .product-cart__application, .product-cart__description {
-    width: 280px; }
+    width: 280px;
+    margin-left: 0; }
   .product-cart__img {
     -webkit-transform: translateY(140px);
             transform: translateY(140px);
