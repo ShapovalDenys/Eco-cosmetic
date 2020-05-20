@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+		<!--	created with www.mysitemapgenerator.com	-->
+		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+	<loc>https://mate.academy/</loc>
+	<lastmod>2020-04-08T14:08:30+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://mate.academy/ru</loc>
+	<lastmod>2020-04-08T14:08:32+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://mate.academy/ru/courses/frontend-parttime</loc>
+	<lastmod>2020-04-08T14:08:36+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://mate.academy/ru/courses/qa</loc>
+	<lastmod>2020-04-08T14:08:37+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://mate.academy/ru/courses/frontend</loc>
+	<lastmod>2020-04-08T14:08:41+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://mate.academy/ru/courses/java</loc>
+	<lastmod>2020-04-08T14:08:40+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://mate.academy/ru/courses/ui-ux</loc>
+	<lastmod>2020-04-08T14:08:43+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://mate.academy/ru/sign-in</loc>
+	<lastmod>2020-04-08T14:08:41+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://mate.academy/ru/sign-up</loc>
+	<lastmod>2020-04-08T14:08:42+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://mate.academy/ru/team</loc>
+	<lastmod>2020-04-08T14:08:43+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://mate.academy/uk/</loc>
+	<lastmod>2020-04-08T14:08:45+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://mate.academy/ru/sign-up/qa</loc>
+	<lastmod>2020-04-08T14:08:47+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://mate.academy/ru/sign-up/frontend</loc>
+	<lastmod>2020-04-08T14:08:44+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://mate.academy/ru/sign-up/java</loc>
+	<lastmod>2020-04-08T14:08:45+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://mate.academy/ru/sign-up/ui-ux</loc>
+	<lastmod>2020-04-08T14:08:46+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://mate.academy/ru/prices</loc>
+	<lastmod>2020-04-08T14:08:47+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://mate.academy/ru/faq</loc>
+	<lastmod>2020-04-08T14:08:49+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://mate.academy/uk/courses/qa</loc>
+	<lastmod>2020-04-08T14:08:50+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://mate.academy/ru/sign-up?course=qa</loc>
+	<lastmod>2020-04-08T14:08:50+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://mate.academy/uk/courses/java</loc>
+	<lastmod>2020-04-08T14:08:51+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://mate.academy/ru/sign-up?course=java</loc>
+	<lastmod>2020-04-08T14:08:51+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://mate.academy/uk/courses/frontend</loc>
+	<lastmod>2020-04-08T14:08:52+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://mate.academy/ru/sign-up?course=frontend</loc>
+	<lastmod>2020-04-08T14:08:53+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://mate.academy/ru/forgot-password</loc>
+	<lastmod>2020-04-08T14:08:52+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://mate.academy/uk/courses/ui-ux</loc>
+	<lastmod>2020-04-08T14:08:54+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://mate.academy/ru/sign-up?course=ui-ux</loc>
+	<lastmod>2020-04-08T14:08:53+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://mate.academy/uk/team</loc>
+	<lastmod>2020-04-08T14:08:55+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://mate.academy/uk</loc>
+	<lastmod>2020-04-08T14:08:54+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://mate.academy/uk/courses/frontend-parttime</loc>
+	<lastmod>2020-04-08T14:08:54+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://mate.academy/uk/sign-in</loc>
+	<lastmod>2020-04-08T14:08:55+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://mate.academy/uk/sign-up</loc>
+	<lastmod>2020-04-08T14:08:55+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://mate.academy/ru/</loc>
+	<lastmod>2020-04-08T14:08:57+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://mate.academy/uk/sign-up/qa</loc>
+	<lastmod>2020-04-08T14:08:56+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://mate.academy/uk/sign-up/frontend</loc>
+	<lastmod>2020-04-08T14:08:56+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://mate.academy/uk/sign-up/java</loc>
+	<lastmod>2020-04-08T14:08:57+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://mate.academy/uk/sign-up/ui-ux</loc>
+	<lastmod>2020-04-08T14:08:57+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://mate.academy/uk/prices</loc>
+	<lastmod>2020-04-08T14:08:58+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://mate.academy/uk/faq</loc>
+	<lastmod>2020-04-08T14:08:59+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://mate.academy/ru/privacy-policy.pdf</loc>
+	<lastmod>2020-04-08T14:08:47+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://mate.academy/ru/cookies-policy.pdf</loc>
+	<lastmod>2020-04-08T14:08:47+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://mate.academy/uk/sign-up?course=qa</loc>
+	<lastmod>2020-04-08T14:08:58+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://mate.academy/uk/sign-up?course=java</loc>
+	<lastmod>2020-04-08T14:08:59+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://mate.academy/uk/sign-up?course=frontend</loc>
+	<lastmod>2020-04-08T14:08:59+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://mate.academy/uk/sign-up?course=ui-ux</loc>
+	<lastmod>2020-04-08T14:09:00+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://mate.academy/uk/forgot-password</loc>
+	<lastmod>2020-04-08T14:09:00+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+</urlset>
