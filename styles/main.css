@@ -354,7 +354,8 @@ body {
       margin-top: 0;
       margin-bottom: 19px; }
   .header__nav {
-    margin-top: 10px; }
+    margin-top: 10px;
+    z-index: 20; }
   .nav__toggler-label {
     top: 18px;
     -webkit-transform: scale(1.1);
@@ -1153,6 +1154,7 @@ body {
   .contact-us__button {
     margin-top: 40px;
     position: relative;
+    left: calc(50% - 140px);
     width: 280px;
     height: 60px;
     background: #333;
