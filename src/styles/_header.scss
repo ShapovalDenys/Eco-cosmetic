@@ -105,9 +105,9 @@
     justify-content: flex-end;
     width: 90%;
     max-width: 1280px;
+    z-index: -1;
   }
   &__img {
-    z-index: -1;
     width: 577px;
     height: 480px;
     object-fit: cover;
